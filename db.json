@@ -1,8 +1,508 @@
 {
-  "COLLECTION_NAME_HERE": [
+  "types": [
     {
       "id": "1234",
-      "KEY_HERE": "VALUE_HERE"
+      "type": "boss"
+    },
+    {
+      "id": "2345",
+      "type": "mini-boss"
+    },
+    {
+      "id": "3456",
+      "type": "mob"
+    }
+  ],
+  "locations": [
+    {
+      "id": "hk_area_001",
+      "location": "The Abyss",
+      "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/b/bd/The_Abyss_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20220917230254",
+      "images": [],
+      "enemyIds": [
+        "enemy_0011"
+      ],
+      "tramAccess": false,
+      "description": "The Abyss is the deepest region of Hallownest, hidden beneath Ancient Basin. It contains remnants of Void entities and serves as the finale location of Silksong's epilogue content."
+    },
+    {
+      "id": "hk_area_002",
+      "location": "Ancient Basin",
+      "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/c/cb/Ancient_Basin_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190809142141",
+      "images": [],
+      "enemyIds": [
+        "enemy_0004",
+        "enemy_0009",
+        "enemy_0011"
+      ],
+      "tramAccess": true,
+      "description": "Ancient Basin is a vast underground region filled with ancient ruins and mechanical structures. It serves as a hub connecting various parts of Hallownest and contains the entrance to the Abyss."
+    },
+    {
+      "id": "hk_area_003",
+      "location": "City of Tears",
+      "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/b/b5/City_of_Tears_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190809142102",
+      "images": [],
+      "enemyIds": [
+        "enemy_0002",
+        "enemy_0006",
+        "enemy_0007",
+        "enemy_0008",
+        "enemy_0009"
+      ],
+      "tramAccess": true,
+      "description": "The City of Tears is the grand capital of Hallownest, a sprawling metropolis with vast architecture and a grand atmosphere. Once bustling with life, it now stands mostly empty and in disrepair."
+    },
+    {
+      "id": "hk_area_004",
+      "location": "Colosseum of Fools",
+      "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/9/97/Colosseum_Of_Fools_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103174712",
+      "images": [],
+      "enemyIds": [
+        "enemy_0012",
+        "enemy_0017"
+      ],
+      "tramAccess": false,
+      "description": "The Colosseum of Fools is a combat arena hidden within Kingdom's Edge where warriors can test their strength against increasingly difficult opponents in waves of increasingly challenging battles."
+    },
+    {
+      "id": "hk_area_005",
+      "location": "Crystal Peak",
+      "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/b/b3/Crystal_Peak_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20200126001752",
+      "images": [],
+      "enemyIds": [
+        "enemy_0013"
+      ],
+      "tramAccess": true,
+      "description": "Crystal Peak is a mountainous region filled with large crystals and mineral deposits. It is home to mining operations and contains many secrets within its crystal-laden caves."
+    },
+    {
+      "id": "hk_area_006",
+      "location": "Deepnest",
+      "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/7/70/Deepnest_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103164626",
+      "images": [],
+      "enemyIds": [
+        "enemy_0007"
+      ],
+      "tramAccess": true,
+      "description": "Deepnest is a dark, web-filled region inhabited by spider-like creatures and other horrors. It is one of the most dangerous areas in Hallownest, filled with intricate webs and predatory creatures."
+    },
+    {
+      "id": "hk_area_007",
+      "location": "Dirtmouth",
+      "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/1/10/Dirtmouth_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103165409",
+      "images": [],
+      "enemyIds": [
+        "enemy_0001",
+        "enemy_0002"
+      ],
+      "tramAccess": true,
+      "description": "Dirtmouth is a small village on the surface of Hallownest, serving as the main entry point to the kingdom. It is inhabited by simple folk who live simple lives, unaware of the horrors that lurk below."
+    },
+    {
+      "id": "hk_area_008",
+      "location": "Fog Canyon",
+      "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/f/f0/Fog_Canyon_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103170125",
+      "images": [],
+      "enemyIds": [
+        "enemy_0014"
+      ],
+      "tramAccess": false,
+      "description": "Fog Canyon is a high-altitude region perpetually shrouded in thick fog. It is home to jellyfish-like creatures and floating platforms, making navigation treacherous."
+    },
+    {
+      "id": "hk_area_009",
+      "location": "Forgotten Crossroads",
+      "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/b/be/Forgotten_Crossroads_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103171237",
+      "images": [],
+      "enemyIds": [
+        "enemy_0001",
+        "enemy_0002",
+        "enemy_0004",
+        "enemy_0005",
+        "enemy_0006",
+        "enemy_0007",
+        "enemy_0008"
+      ],
+      "tramAccess": true,
+      "description": "Forgotten Crossroads is the central hub of Hallownest, where many paths intersect. It is the first major area encountered by the Knight and serves as a major landmark throughout the journey."
+    },
+    {
+      "id": "hk_area_010",
+      "location": "Fungal Wastes",
+      "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Fungal_Wastes_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103172057",
+      "images": [],
+      "enemyIds": [
+        "enemy_0002",
+        "enemy_0005"
+      ],
+      "tramAccess": false,
+      "description": "Fungal Wastes is a sprawling region filled with massive fungi and organic growth. The environment is alive and hostile, with creatures that seem to emerge from the fungal matter itself."
+    },
+    {
+      "id": "hk_area_011",
+      "location": "Godhome",
+      "mapImage": "https://hollow-knight.fandom.com/wiki/File:Godhome_Map_Clean.png",
+      "images": [],
+      "enemyIds": [],
+      "tramAccess": false,
+      "description": "Godhome is a hidden realm accessed through the Abyss where the strongest bosses of Hallownest gather. It is a place where gods and powerful beings congregate in endless combat."
+    },
+    {
+      "id": "hk_area_012",
+      "location": "Greenpath",
+      "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/1/19/Greenpath_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103172634",
+      "images": [],
+      "enemyIds": [
+        "enemy_0001",
+        "enemy_0002",
+        "enemy_0003",
+        "enemy_0005",
+        "enemy_0007",
+        "enemy_0008",
+        "enemy_0010"
+      ],
+      "tramAccess": false,
+      "description": "Greenpath is a lush, verdant region filled with moss and plant growth. It is one of the more peaceful areas of Hallownest, though still filled with dangerous creatures."
+    },
+    {
+      "id": "hk_area_013",
+      "location": "The Hive",
+      "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/a/af/The_Hive_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103173505",
+      "images": [],
+      "enemyIds": [
+        "enemy_0016"
+      ],
+      "tramAccess": false,
+      "description": "The Hive is a late-game area with a biological structure resembling a massive insect hive. It contains hostile bee-like creatures and challenging platforming sections."
+    },
+    {
+      "id": "hk_area_014",
+      "location": "Howling Cliffs",
+      "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/f/fc/Howling_Cliffs_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103173943",
+      "images": [],
+      "enemyIds": [
+        "enemy_0001",
+        "enemy_0002",
+        "enemy_0003",
+        "enemy_0007",
+        "enemy_0008"
+      ],
+      "tramAccess": false,
+      "description": "Howling Cliffs is a clifftop area where strong winds create an eerie atmosphere. This location serves as a connection point between surface areas and the underground kingdom."
+    },
+    {
+      "id": "hk_area_015",
+      "location": "Kingdom's Edge",
+      "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/6/67/Kingdom%27s_Edge_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103174632",
+      "images": [],
+      "enemyIds": [
+        "enemy_0016",
+        "enemy_0017"
+      ],
+      "tramAccess": true,
+      "description": "Kingdom's Edge is the southernmost region of Hallownest, a perilous area filled with Void creatures and ancient structures. It marks the edge of the known kingdom and contains secrets of the Void."
+    },
+    {
+      "id": "hk_area_016",
+      "location": "Queen's Gardens",
+      "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/3/3b/Queens_Gardens_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20220214153929",
+      "images": [],
+      "enemyIds": [
+        "enemy_0015"
+      ],
+      "tramAccess": false,
+      "description": "Queen's Gardens is a beautiful yet deadly area filled with exotic flora and fauna. It is the domain of the Queen and contains some of the most elegant yet dangerous creatures."
+    },
+    {
+      "id": "hk_area_017",
+      "location": "Resting Grounds",
+      "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/0/0d/Resting_Grounds_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103183536",
+      "images": [],
+      "enemyIds": [
+        "enemy_0001",
+        "enemy_0002"
+      ],
+      "tramAccess": true,
+      "description": "Resting Grounds is a peaceful cemetery area where the remains of Hallownest's former inhabitants rest. Despite its serene appearance, it holds many secrets and dangers."
+    },
+    {
+      "id": "hk_area_018",
+      "location": "Royal Waterways",
+      "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/3/35/Royal_Waterways_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190809142036",
+      "images": [],
+      "enemyIds": [
+        "enemy_0019"
+      ],
+      "tramAccess": true,
+      "description": "Royal Waterways is an underground water system serving as the main water source for Hallownest. It is filled with water, platforms, and aquatic creatures."
+    },
+    {
+      "id": "hk_area_019",
+      "location": "White Palace",
+      "mapImage": null,
+      "images": [],
+      "enemyIds": [
+        "enemy_0018"
+      ],
+      "tramAccess": false,
+      "description": "The White Palace is the royal seat of the Pale King, an ancient and dangerous location filled with spikes and challenging platforming. It serves as one of the most difficult areas in the game."
+    }
+  ],
+  "enemies": [
+    {
+      "id": "enemy_0001",
+      "name": "Crawlid",
+      "images": "https://static.wikia.nocookie.net/hollowknight/images/5/5b/B_Crawlid.png/revision/latest?cb=20180528162013",
+      "briefDescription": "A small crawling creature commonly found in the Forgotten Crossroads.",
+      "behaviour": "Slowly crawls along surfaces and damages the Knight on contact.",
+      "health": 8,
+      "geo": 1,
+      "locationIds": [
+        "hk_area_009",
+        "hk_area_012",
+        "hk_area_014",
+        "hk_area_017",
+        "hk_area_007"
+      ]
+    },
+    {
+      "id": "enemy_0002",
+      "name": "Vengefly",
+      "images": "https://static.wikia.nocookie.net/hollowknight/images/e/e2/B_Vengefly.png/revision/latest?cb=20180528160221",
+      "briefDescription": "A flying insect enemy found throughout Hallownest.",
+      "behaviour": "Flies toward the Knight when provoked and attempts to collide with them.",
+      "health": 13,
+      "geo": 2,
+      "locationIds": [
+        "hk_area_009",
+        "hk_area_012",
+        "hk_area_010",
+        "hk_area_014",
+        "hk_area_017",
+        "hk_area_003",
+        "hk_area_007"
+      ]
+    },
+    {
+      "id": "enemy_0003",
+      "name": "Vengefly King",
+      "images": "https://static.wikia.nocookie.net/hollowknight/images/4/41/B_Vengefly_King.png/revision/latest?cb=20170410164428",
+      "briefDescription": "A larger and stronger variant of the Vengefly.",
+      "behaviour": "Charges aggressively through the air and can summon smaller Vengeflies.",
+      "health": 40,
+      "geo": 15,
+      "locationIds": [
+        "hk_area_014",
+        "hk_area_012"
+      ]
+    },
+    {
+      "id": "enemy_0004",
+      "name": "Aspid Hunter",
+      "images": "https://static.wikia.nocookie.net/hollowknight/images/0/0a/Aspid_Hunter_Idle.png/revision/latest?cb=20181123132643",
+      "briefDescription": "A hostile flying creature that attacks from a distance.",
+      "behaviour": "Fires spreads of projectiles at the Knight while hovering in the air.",
+      "health": 15,
+      "geo": 6,
+      "locationIds": [
+        "hk_area_002",
+        "hk_area_009"
+      ]
+    },
+    {
+      "id": "enemy_0005",
+      "name": "Aspid Mother",
+      "images": "https://static.wikia.nocookie.net/hollowknight/images/c/ce/Aspid_Mother_Idle.png/revision/latest?cb=20181129011650",
+      "briefDescription": "A floating insect that carries offspring inside its body.",
+      "behaviour": "Drifts through the air and releases smaller Aspids when defeated.",
+      "health": 20,
+      "geo": 4,
+      "locationIds": [
+        "hk_area_009",
+        "hk_area_012",
+        "hk_area_010"
+      ]
+    },
+    {
+      "id": "enemy_0006",
+      "name": "Husk Guard",
+      "images": "https://static.wikia.nocookie.net/hollowknight/images/1/1b/B_Husk_Guard.png/revision/latest?cb=20170411171316",
+      "briefDescription": "A heavily armoured husk that protects key locations.",
+      "behaviour": "Walks slowly and performs powerful club attacks when approached.",
+      "health": 105,
+      "geo": 45,
+      "locationIds": [
+        "hk_area_009",
+        "hk_area_003"
+      ]
+    },
+    {
+      "id": "enemy_0007",
+      "name": "Wandering Husk",
+      "images": "https://static.wikia.nocookie.net/hollowknight/images/9/96/Wandering_Husk_Idle.png/revision/latest?cb=20181128210129",
+      "briefDescription": "A basic infected citizen of Hallownest.",
+      "behaviour": "Slowly patrols an area and damages the Knight on contact.",
+      "health": 10,
+      "geo": 2,
+      "locationIds": [
+        "hk_area_009",
+        "hk_area_006",
+        "hk_area_012",
+        "hk_area_014",
+        "hk_area_003"
+      ]
+    },
+    {
+      "id": "enemy_0008",
+      "name": "Leaping Husk",
+      "images": "https://static.wikia.nocookie.net/hollowknight/images/4/4d/B_Leaping_Husk.png/revision/latest?cb=20180528162203",
+      "briefDescription": "An infected husk with strong jumping abilities.",
+      "behaviour": "Repeatedly leaps toward the Knight in an attempt to collide with them.",
+      "health": 15,
+      "geo": 2,
+      "locationIds": [
+        "hk_area_009",
+        "hk_area_012",
+        "hk_area_014",
+        "hk_area_003"
+      ]
+    },
+    {
+      "id": "enemy_0009",
+      "name": "Great Husk Sentry",
+      "images": "https://static.wikia.nocookie.net/hollowknight/images/6/63/B_Great_Husk_Sentry.png/revision/latest?cb=20170412130417",
+      "briefDescription": "A powerful royal guard found within the City of Tears.",
+      "behaviour": "Uses quick dashes and heavy melee attacks to defend its territory.",
+      "health": 100,
+      "geo": 20,
+      "locationIds": [
+        "hk_area_003",
+        "hk_area_002"
+      ]
+    },
+    {
+      "id": "enemy_0010",
+      "name": "Moss Charger",
+      "images": "https://static.wikia.nocookie.net/hollowknight/images/5/56/B_Moss_Charger.png/revision/latest?cb=20170411222705",
+      "briefDescription": "A creature disguised beneath a cloak of moss.",
+      "behaviour": "Burrows underground and rapidly charges at the Knight when detected.",
+      "health": 30,
+      "geo": 8,
+      "locationIds": [
+        "hk_area_012"
+      ]
+    },
+    {
+      "id": "enemy_0011",
+      "name": "Shadow Creeper",
+      "images": "https://static.wikia.nocookie.net/hollowknight/images/b/bf/B_Shadow_Creeper.png/revision/latest?cb=20170412183704",
+      "briefDescription": "A creature corrupted by the infection",
+      "behaviour": "This little creeper is weak and poses no threat, but something about it still unsettles me.",
+      "health": 20,
+      "geo": 2,
+      "locationIds": [
+        "hk_area_001",
+        "hk_area_002"
+      ]
+    },
+    {
+      "id": "enemy_0012",
+      "name": "Sturdy Fool",
+      "images": "https://hollowknight.wiki.fextralife.com/file/Hollow-Knight/sturdy_fool_enemy_hollow_knight_wiki_guide.png",
+      "briefDescription": "Warrior fighting for glory in the Colosseum of Fools.",
+      "behaviour": "Uses crescent-shaped blades to cut down foes.",
+      "health": 80,
+      "geo": 0,
+      "locationIds": [
+        "hk_area_004"
+      ]
+    },
+    {
+      "id": "enemy_0013",
+      "name": "Husk Miner",
+      "images": "https://hollowknight.wiki.fextralife.com/file/Hollow-Knight/husk_miner_enemy_hollow_knight_wiki_guide.png",
+      "briefDescription": "Remains of a miner bug who succumbed to the infection.",
+      "behaviour": "Its claw-pick now doubles as a fierce weapon.",
+      "health": 25,
+      "geo": 10,
+      "locationIds": [
+        "hk_area_005"
+      ]
+    },
+    {
+      "id": "enemy_0014",
+      "name": "Ooma",
+      "images": "https://static.wikia.nocookie.net/hollowknight/images/7/7e/B_Ooma.png/revision/latest?cb=20170412092225",
+      "briefDescription": "Passive Outer being protecting an aggressive, explosive core",
+      "behaviour": "Floats up and down in place in a set pattern.",
+      "health": 1,
+      "geo": 5,
+      "locationIds": [
+        "hk_area_008"
+      ]
+    },
+    {
+      "id": "enemy_0015",
+      "name": "Spiny Husk",
+      "images": "https://static.wikia.nocookie.net/hollowknight/images/6/6c/B_Spiny_Husk.png/revision/latest?cb=20170412200645",
+      "briefDescription": "Husks whose bodies are overgrown with thorny vegetation",
+      "behaviour": "Attacks by firing sharp spines from its body",
+      "health": 44,
+      "geo": 12,
+      "locationIds": [
+        "hk_area_016"
+      ]
+    },
+    {
+      "id": "enemy_0016",
+      "name": "Hiveling",
+      "images": "https://static.wikia.nocookie.net/hollowknight/images/f/ff/Hiveling.png/revision/latest?cb=20190117184525",
+      "briefDescription": "Smallest of the Hive's inhabitants. Carries out simple tasks.",
+      "behaviour": "Flies around idly, but drifts toward the Knight at a moderate speed when in range.",
+      "health": 18,
+      "geo": 0,
+      "locationIds": [
+        "hk_area_013",
+        "hk_area_015"
+      ]
+    },
+    {
+      "id": "enemy_0017",
+      "name": "Great Hopper",
+      "images": "https://static.wikia.nocookie.net/hollowknight/images/6/66/B_Great_Hopper.png/revision/latest?cb=20170412195913",
+      "briefDescription": "A worthy foe, surprisngly sic nimble for its size.",
+      "behaviour": "These large creatures attempt to crush prey beneath their bodies.",
+      "health": 130,
+      "geo": 30,
+      "locationIds": [
+        "hk_area_015",
+        "hk_area_004"
+      ]
+    },
+    {
+      "id": "enemy_0018",
+      "name": "Kingsmould",
+      "images": "https://static.wikia.nocookie.net/hollowknight/images/5/50/B_Kingsmould.png/revision/latest?cb=20180926173321",
+      "briefDescription": "construct of Hallownest's Palace and skilled wielder of the curved claw-blade.",
+      "behaviour": "Its heavy white armour protects a fragile body.",
+      "health": 170,
+      "geo": 0,
+      "locationIds": [
+        "hk_area_019"
+      ]
+    },
+    {
+      "id": "enemy_0019",
+      "name": "Flukemon",
+      "images": "https://static.wikia.nocookie.net/hollowknight/images/f/f3/B_Flukemon.png/revision/latest?cb=20170412131623",
+      "briefDescription": "Worm-like creature that prefers damp, dark habitats.",
+      "behaviour": "Dangerous, unpredictable foes that infest the pipes below Hallownest's capital. Even when it seems you've killed them, you need to stay on guard",
+      "health": 55,
+      "geo": 12,
+      "locationIds": [
+        "hk_area_018"
+      ]
     }
   ]
 }
