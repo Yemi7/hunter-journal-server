@@ -18,7 +18,13 @@
       "id": "hk_area_001",
       "location": "The Abyss",
       "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/b/bd/The_Abyss_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20220917230254",
-      "images": [],
+      "images": [
+        "https://static.wikia.nocookie.net/hollowknight/images/c/c9/Screenshot_HK_Abyss_01.png/revision/latest/scale-to-width-down/1000?cb=20190311002056",
+        "https://static.wikia.nocookie.net/hollowknight/images/6/66/Screenshot_HK_Abyss_02.png/revision/latest/scale-to-width-down/1000?cb=20190311002056",
+        "https://static.wikia.nocookie.net/hollowknight/images/6/6b/Screenshot_HK_Abyss_16.png/revision/latest/scale-to-width-down/1000?cb=20200608114728",
+        "https://static.wikia.nocookie.net/hollowknight/images/4/4f/Screenshot_HK_Abyss_07.png/revision/latest/scale-to-width-down/1000?cb=20190213070502",
+        "https://static.wikia.nocookie.net/hollowknight/images/4/4a/Screenshot_HK_Abyss_13.png/revision/latest/scale-to-width-down/1000?cb=20190213070549"
+      ],
       "enemyIds": [
         "enemy_0011"
       ],
@@ -29,7 +35,13 @@
       "id": "hk_area_002",
       "location": "Ancient Basin",
       "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/c/cb/Ancient_Basin_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190809142141",
-      "images": [],
+      "images": [
+        "https://static.wikia.nocookie.net/hollowknight/images/3/3f/Screenshot_HK_Ancient_Basin_01.png/revision/latest/scale-to-width-down/1000?cb=20190313011412",
+        "https://static.wikia.nocookie.net/hollowknight/images/8/8c/Screenshot_HK_Ancient_Basin_02.png/revision/latest/scale-to-width-down/1000?cb=20190313011627",
+        "https://static.wikia.nocookie.net/hollowknight/images/e/ed/Screenshot_HK_The_Pale_King_06.png/revision/latest/scale-to-width-down/1000?cb=20190213070303",
+        "https://static.wikia.nocookie.net/hollowknight/images/3/31/Screenshot_HK_Ancient_Basin_08.png/revision/latest/scale-to-width-down/1000?cb=20190213070345",
+        "https://static.wikia.nocookie.net/hollowknight/images/0/0e/Screenshot_HK_Ancient_Basin_10.png/revision/latest/scale-to-width-down/1000?cb=20190213070417"
+      ],
       "enemyIds": [
         "enemy_0004",
         "enemy_0009",
@@ -42,7 +54,13 @@
       "id": "hk_area_003",
       "location": "City of Tears",
       "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/b/b5/City_of_Tears_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190809142102",
-      "images": [],
+      "images": [
+        "https://static.wikia.nocookie.net/hollowknight/images/2/2b/Screenshot_HK_City_of_Tears_01.png/revision/latest/scale-to-width-down/1000?cb=20190219044620",
+        "https://static.wikia.nocookie.net/hollowknight/images/4/4c/Screenshot_HK_City_of_Tears_17.png/revision/latest/scale-to-width-down/1000?cb=20190301035532",
+        "https://static.wikia.nocookie.net/hollowknight/images/2/2a/Screenshot_HK_City_of_Tears_04.png/revision/latest/scale-to-width-down/1000?cb=20190301035641",
+        "https://static.wikia.nocookie.net/hollowknight/images/5/54/Screenshot_HK_City_of_Tears_16.png/revision/latest/scale-to-width-down/1000?cb=20190228215912",
+        "https://static.wikia.nocookie.net/hollowknight/images/1/15/Screenshot_HK_City_of_Tears_15.png/revision/latest/scale-to-width-down/1000?cb=20190219045536"
+      ],
       "enemyIds": [
         "enemy_0002",
         "enemy_0006",
@@ -57,7 +75,13 @@
       "id": "hk_area_004",
       "location": "Colosseum of Fools",
       "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/9/97/Colosseum_Of_Fools_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103174712",
-      "images": [],
+      "images": [
+        "https://static.wikia.nocookie.net/hollowknight/images/9/9e/Screenshot_HK_Little_Fool_01.png/revision/latest/scale-to-width-down/1000?cb=20190219055830",
+        "https://static.wikia.nocookie.net/hollowknight/images/c/cc/Screenshot_HK_Colosseum_of_Fools_03.png/revision/latest/scale-to-width-down/1000?cb=20190219060200",
+        "https://static.wikia.nocookie.net/hollowknight/images/9/9b/Screenshot_HK_Colosseum_of_Fools_04.png/revision/latest/scale-to-width-down/1000?cb=20190224222112",
+        "https://static.wikia.nocookie.net/hollowknight/images/9/9f/Screenshot_HK_Colosseum_of_Fools_08.png/revision/latest/scale-to-width-down/1000?cb=20190219060315",
+        "https://static.wikia.nocookie.net/hollowknight/images/e/ea/Screenshot_HK_Colosseum_of_Fools_06.png/revision/latest/scale-to-width-down/1000?cb=20190219060352"
+      ],
       "enemyIds": [
         "enemy_0012",
         "enemy_0017"
@@ -69,7 +93,13 @@
       "id": "hk_area_005",
       "location": "Crystal Peak",
       "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/b/b3/Crystal_Peak_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20200126001752",
-      "images": [],
+      "images": [
+        "https://static.wikia.nocookie.net/hollowknight/images/6/60/Screenshot_HK_Crystal_Peak_01.png/revision/latest/scale-to-width-down/1000?cb=20190623235304",
+        "https://static.wikia.nocookie.net/hollowknight/images/6/6f/Screenshot_HK_Crystal_Peak_18.png/revision/latest/scale-to-width-down/1000?cb=20190624013700",
+        "https://static.wikia.nocookie.net/hollowknight/images/e/e3/Screenshot_HK_Crystal_Peak_05.png/revision/latest/scale-to-width-down/1000?cb=20190221222053",
+        "https://static.wikia.nocookie.net/hollowknight/images/b/b5/Screenshot_HK_Crystal_Peak_06.png/revision/latest/scale-to-width-down/1000?cb=20190221222117",
+        "https://static.wikia.nocookie.net/hollowknight/images/5/50/Screenshot_HK_Crystal_Peak_16.png/revision/latest/scale-to-width-down/1000?cb=20190221222043"
+      ],
       "enemyIds": [
         "enemy_0013"
       ],
@@ -80,7 +110,13 @@
       "id": "hk_area_006",
       "location": "Deepnest",
       "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/7/70/Deepnest_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103164626",
-      "images": [],
+      "images": [
+        "https://static.wikia.nocookie.net/hollowknight/images/3/3b/Screenshot_HK_Deepnest_07.png/revision/latest/scale-to-width-down/1000?cb=20190222001452",
+        "https://static.wikia.nocookie.net/hollowknight/images/4/43/Screenshot_HK_Deepnest_04.png/revision/latest/scale-to-width-down/1000?cb=20190222001550",
+        "https://static.wikia.nocookie.net/hollowknight/images/f/f5/Screenshot_HK_Deepnest_03.png/revision/latest/scale-to-width-down/1000?cb=20190302000645",
+        "https://static.wikia.nocookie.net/hollowknight/images/f/f6/Screenshot_HK_Deepnest_09.png/revision/latest/scale-to-width-down/1000?cb=20190222001722",
+        "https://static.wikia.nocookie.net/hollowknight/images/b/b7/Screenshot_HK_Deepnest_10.png/revision/latest/scale-to-width-down/1000?cb=20190222001619"
+      ],
       "enemyIds": [
         "enemy_0007"
       ],
@@ -91,7 +127,13 @@
       "id": "hk_area_007",
       "location": "Dirtmouth",
       "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/1/10/Dirtmouth_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103165409",
-      "images": [],
+      "images": [
+        "https://static.wikia.nocookie.net/hollowknight/images/b/bb/Screenshot_HK_Dirtmouth_06.png/revision/latest/scale-to-width-down/1000?cb=20190226163013",
+        "https://static.wikia.nocookie.net/hollowknight/images/8/85/Screenshot_HK_Dirtmouth_03.png/revision/latest/scale-to-width-down/1000?cb=20190612174230",
+        "https://static.wikia.nocookie.net/hollowknight/images/1/12/Screenshot_HK_Dirtmouth_08.png/revision/latest/scale-to-width-down/1000?cb=20190225000603",
+        "https://static.wikia.nocookie.net/hollowknight/images/1/13/Screenshot_HK_Dirtmouth_02.png/revision/latest/scale-to-width-down/1000?cb=20190225000629",
+        "https://static.wikia.nocookie.net/hollowknight/images/3/31/Screenshot_HK_Dirtmouth_10.png/revision/latest/scale-to-width-down/1000?cb=20190225002227"
+      ],
       "enemyIds": [
         "enemy_0001",
         "enemy_0002"
@@ -103,7 +145,13 @@
       "id": "hk_area_008",
       "location": "Fog Canyon",
       "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/f/f0/Fog_Canyon_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103170125",
-      "images": [],
+      "images": [
+        "https://static.wikia.nocookie.net/hollowknight/images/0/03/Screenshot_HK_Husk_Guard_03.png/revision/latest/scale-to-width-down/1000?cb=20190227231005",
+        "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Screenshot_HK_Fog_Canyon_02.png/revision/latest/scale-to-width-down/1000?cb=20190227230945",
+        "https://static.wikia.nocookie.net/hollowknight/images/9/9b/Screenshot_HK_Fog_Canyon_03.png/revision/latest/scale-to-width-down/1000?cb=20190227231107",
+        "https://static.wikia.nocookie.net/hollowknight/images/8/8f/Screenshot_HK_Fog_Canyon_04.png/revision/latest/scale-to-width-down/1000?cb=20190227231057",
+        "https://static.wikia.nocookie.net/hollowknight/images/1/16/Screenshot_HK_Millibelle_01.png/revision/latest/scale-to-width-down/1000?cb=20190227231023"
+      ],
       "enemyIds": [
         "enemy_0014"
       ],
@@ -114,7 +162,13 @@
       "id": "hk_area_009",
       "location": "Forgotten Crossroads",
       "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/b/be/Forgotten_Crossroads_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103171237",
-      "images": [],
+      "images": [
+        "https://static.wikia.nocookie.net/hollowknight/images/f/f0/Screenshot_HK_Forgotten_Crossroads_01.png/revision/latest/scale-to-width-down/1000?cb=20190227233404",
+        "https://static.wikia.nocookie.net/hollowknight/images/8/89/Screenshot_HK_Forgotten_Crossroads_02.png/revision/latest/scale-to-width-down/1000?cb=20190612174909",
+        "https://static.wikia.nocookie.net/hollowknight/images/2/2d/Screenshot_HK_Salubra_01.png/revision/latest/scale-to-width-down/1000?cb=20190301042229",
+        "https://static.wikia.nocookie.net/hollowknight/images/6/6f/Screenshot_HK_Forgotten_Crossroads_05.png/revision/latest/scale-to-width-down/1000?cb=20190227234517",
+        "https://static.wikia.nocookie.net/hollowknight/images/8/82/Screenshot_HK_Forgotten_Crossroads_06.png/revision/latest/scale-to-width-down/1000?cb=20190628011324"
+      ],
       "enemyIds": [
         "enemy_0001",
         "enemy_0002",
@@ -131,7 +185,13 @@
       "id": "hk_area_010",
       "location": "Fungal Wastes",
       "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/c/c3/Fungal_Wastes_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103172057",
-      "images": [],
+      "images": [
+        "https://static.wikia.nocookie.net/hollowknight/images/f/f5/Screenshot_HK_Fungal_Wastes_02.png/revision/latest/scale-to-width-down/1000?cb=20190302011735",
+        "https://static.wikia.nocookie.net/hollowknight/images/0/07/Screenshot_HK_Fungal_Wastes_03.png/revision/latest/scale-to-width-down/1000?cb=20190302011623",
+        "https://static.wikia.nocookie.net/hollowknight/images/5/58/Screenshot_HK_Fungal_Wastes_04.png/revision/latest/scale-to-width-down/1000?cb=20190302011801",
+        "https://static.wikia.nocookie.net/hollowknight/images/4/4f/Screenshot_HK_Fungal_Wastes_06.png/revision/latest/scale-to-width-down/1000?cb=20190302011843",
+        "https://static.wikia.nocookie.net/hollowknight/images/c/cf/Screenshot_HK_Fungal_Wastes_17.png/revision/latest/scale-to-width-down/1000?cb=20190302011854"
+      ],
       "enemyIds": [
         "enemy_0002",
         "enemy_0005"
@@ -143,7 +203,13 @@
       "id": "hk_area_011",
       "location": "Godhome",
       "mapImage": "https://hollow-knight.fandom.com/wiki/File:Godhome_Map_Clean.png",
-      "images": [],
+      "images": [
+        "https://static.wikia.nocookie.net/hollowknight/images/3/37/Screenshot_HK_Godhome_13.png/revision/latest/scale-to-width-down/1000?cb=20190305175559",
+        "https://static.wikia.nocookie.net/hollowknight/images/c/c8/Screenshot_HK_Godhome_03.png/revision/latest/scale-to-width-down/1000?cb=20190305175745",
+        "https://static.wikia.nocookie.net/hollowknight/images/0/09/Screenshot_HK_Godhome_07.png/revision/latest/scale-to-width-down/1000?cb=20190305180001",
+        "https://static.wikia.nocookie.net/hollowknight/images/7/7f/Screenshot_HK_Godhome_06.png/revision/latest/scale-to-width-down/1000?cb=20190305175937",
+        "https://static.wikia.nocookie.net/hollowknight/images/2/2c/Screenshot_HK_Godhome_08.png/revision/latest/scale-to-width-down/1000?cb=20190305180038"
+      ],
       "enemyIds": [],
       "tramAccess": false,
       "description": "Godhome is a hidden realm accessed through the Abyss where the strongest bosses of Hallownest gather. It is a place where gods and powerful beings congregate in endless combat."
@@ -152,7 +218,13 @@
       "id": "hk_area_012",
       "location": "Greenpath",
       "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/1/19/Greenpath_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103172634",
-      "images": [],
+      "images": [
+        "https://static.wikia.nocookie.net/hollowknight/images/9/9c/Screenshot_HK_Greenpath_01.png/revision/latest/scale-to-width-down/1000?cb=20190312030837",
+        "https://static.wikia.nocookie.net/hollowknight/images/8/8f/Screenshot_HK_The_Hunter_01.png/revision/latest/scale-to-width-down/1000?cb=20190312030951",
+        "https://static.wikia.nocookie.net/hollowknight/images/2/22/Screenshot_HK_Greenpath_03.png/revision/latest/scale-to-width-down/1000?cb=20190312031226",
+        "https://static.wikia.nocookie.net/hollowknight/images/5/5d/Screenshot_HK_Greenpath_05.png/revision/latest/scale-to-width-down/1000?cb=20190312031015",
+        "https://static.wikia.nocookie.net/hollowknight/images/8/83/Screenshot_HK_Greenpath_12.png/revision/latest/scale-to-width-down/1000?cb=20190312032426"
+      ],
       "enemyIds": [
         "enemy_0001",
         "enemy_0002",
@@ -169,7 +241,13 @@
       "id": "hk_area_013",
       "location": "The Hive",
       "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/a/af/The_Hive_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103173505",
-      "images": [],
+      "images": [
+        "https://static.wikia.nocookie.net/hollowknight/images/6/63/Screenshot_HK_Hive_01.png/revision/latest/scale-to-width-down/1000?cb=20200915212721",
+        "https://static.wikia.nocookie.net/hollowknight/images/8/8e/Screenshot_HK_Hive_02.png/revision/latest/scale-to-width-down/1000?cb=20190313012343",
+        "https://static.wikia.nocookie.net/hollowknight/images/f/fd/Screenshot_HK_Hive_03.png/revision/latest/scale-to-width-down/1000?cb=20190313012432",
+        "https://static.wikia.nocookie.net/hollowknight/images/3/3e/Screenshot_HK_Hive_04.png/revision/latest/scale-to-width-down/1000?cb=20190313012552",
+        "https://static.wikia.nocookie.net/hollowknight/images/1/14/Screenshot_HK_Hive_05.png/revision/latest/scale-to-width-down/1000?cb=20190313013533"
+      ],
       "enemyIds": [
         "enemy_0016"
       ],
@@ -180,7 +258,13 @@
       "id": "hk_area_014",
       "location": "Howling Cliffs",
       "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/f/fc/Howling_Cliffs_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103173943",
-      "images": [],
+      "images": [
+        "https://static.wikia.nocookie.net/hollowknight/images/8/80/Screenshot_HK_Howling_Cliffs_01.png/revision/latest/scale-to-width-down/1000?cb=20190403010309",
+        "https://static.wikia.nocookie.net/hollowknight/images/4/4f/Screenshot_HK_Howling_Cliffs_02.png/revision/latest/scale-to-width-down/1000?cb=20190403010341",
+        "https://static.wikia.nocookie.net/hollowknight/images/e/ec/Screenshot_HK_Howling_Cliffs_03.png/revision/latest/scale-to-width-down/1000?cb=20190403010308",
+        "https://static.wikia.nocookie.net/hollowknight/images/b/bf/Screenshot_HK_Howling_Cliffs_05.png/revision/latest/scale-to-width-down/1000?cb=20190403010409",
+        "https://static.wikia.nocookie.net/hollowknight/images/9/9a/Screenshot_HK_Howling_Cliffs_06.png/revision/latest/scale-to-width-down/1000?cb=20190403010408"
+      ],
       "enemyIds": [
         "enemy_0001",
         "enemy_0002",
@@ -195,7 +279,13 @@
       "id": "hk_area_015",
       "location": "Kingdom's Edge",
       "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/6/67/Kingdom%27s_Edge_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103174632",
-      "images": [],
+      "images": [
+        "https://static.wikia.nocookie.net/hollowknight/images/1/14/Screenshot_HK_Kingdom%27s_Edge_02.png/revision/latest/scale-to-width-down/1000?cb=20190403033933",
+        "https://static.wikia.nocookie.net/hollowknight/images/2/20/Screenshot_HK_Kingdom%27s_Edge_03.png/revision/latest/scale-to-width-down/1000?cb=20190403034623",
+        "https://static.wikia.nocookie.net/hollowknight/images/d/de/Screenshot_HK_Kingdom%27s_Edge_06.png/revision/latest/scale-to-width-down/1000?cb=20190403035254",
+        "https://static.wikia.nocookie.net/hollowknight/images/7/78/Screenshot_HK_Kingdom%27s_Edge_07.png/revision/latest/scale-to-width-down/1000?cb=20190403035505",
+        "https://static.wikia.nocookie.net/hollowknight/images/8/85/Screenshot_HK_Kingdom%27s_Edge_09.png/revision/latest/scale-to-width-down/1000?cb=20190403040637"
+      ],
       "enemyIds": [
         "enemy_0016",
         "enemy_0017"
@@ -207,7 +297,13 @@
       "id": "hk_area_016",
       "location": "Queen's Gardens",
       "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/3/3b/Queens_Gardens_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20220214153929",
-      "images": [],
+      "images": [
+        "https://static.wikia.nocookie.net/hollowknight/images/7/74/Screenshot_HK_Queen%27s_Gardens_03.png/revision/latest/scale-to-width-down/1000?cb=20190407205301",
+        "https://static.wikia.nocookie.net/hollowknight/images/9/91/Screenshot_HK_Queen%27s_Gardens_01.png/revision/latest/scale-to-width-down/1000?cb=20190407205256",
+        "https://static.wikia.nocookie.net/hollowknight/images/6/60/Screenshot_HK_Queen%27s_Gardens_07.png/revision/latest/scale-to-width-down/1000?cb=20190407210552",
+        "https://static.wikia.nocookie.net/hollowknight/images/d/d8/Screenshot_HK_White_Lady_02.png/revision/latest/scale-to-width-down/1000?cb=20190407210935",
+        "https://static.wikia.nocookie.net/hollowknight/images/2/29/Screenshot_HK_Moss_Prophet_01.png/revision/latest/scale-to-width-down/1000?cb=20190407205301"
+      ],
       "enemyIds": [
         "enemy_0015"
       ],
@@ -218,7 +314,13 @@
       "id": "hk_area_017",
       "location": "Resting Grounds",
       "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/0/0d/Resting_Grounds_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190103183536",
-      "images": [],
+      "images": [
+        "https://static.wikia.nocookie.net/hollowknight/images/4/46/Screenshot_HK_Dreamers_08.png/revision/latest/scale-to-width-down/1000?cb=20190420025643",
+        "https://static.wikia.nocookie.net/hollowknight/images/a/a5/Screenshot_HK_Resting_Grounds_02.png/revision/latest/scale-to-width-down/1000?cb=20190420025645",
+        "https://static.wikia.nocookie.net/hollowknight/images/3/33/Screenshot_HK_Xero_01.png/revision/latest/scale-to-width-down/1000?cb=20190420025819",
+        "https://static.wikia.nocookie.net/hollowknight/images/9/9d/Screenshot_HK_Resting_Grounds_06.png/revision/latest/scale-to-width-down/1000?cb=20190420025925",
+        "https://static.wikia.nocookie.net/hollowknight/images/6/68/Screenshot_HK_Resting_Grounds_07.png/revision/latest/scale-to-width-down/1000?cb=20190420025929"
+      ],
       "enemyIds": [
         "enemy_0001",
         "enemy_0002"
@@ -230,7 +332,13 @@
       "id": "hk_area_018",
       "location": "Royal Waterways",
       "mapImage": "https://static.wikia.nocookie.net/hollowknight/images/3/35/Royal_Waterways_Map_Clean.png/revision/latest/scale-to-width-down/1000?cb=20190809142036",
-      "images": [],
+      "images": [
+        "https://static.wikia.nocookie.net/hollowknight/images/9/90/Screenshot_HK_Royal_Waterways_01.png/revision/latest/scale-to-width-down/1000?cb=20190526223922",
+        "https://static.wikia.nocookie.net/hollowknight/images/1/1a/Screenshot_HK_Royal_Waterways_05.png/revision/latest/scale-to-width-down/1000?cb=20190525045008",
+        "https://static.wikia.nocookie.net/hollowknight/images/4/44/Screenshot_HK_Royal_Waterways_09.png/revision/latest/scale-to-width-down/1000?cb=20190526225613",
+        "https://static.wikia.nocookie.net/hollowknight/images/2/20/Screenshot_HK_Royal_Waterways_07.png/revision/latest/scale-to-width-down/1000?cb=20190526223926",
+        "https://static.wikia.nocookie.net/hollowknight/images/5/58/Screenshot_HK_Fluke_Larva_01.png/revision/latest/scale-to-width-down/1000?cb=20190526223930"
+      ],
       "enemyIds": [
         "enemy_0019"
       ],
@@ -241,7 +349,13 @@
       "id": "hk_area_019",
       "location": "White Palace",
       "mapImage": null,
-      "images": [],
+      "images": [
+        "https://static.wikia.nocookie.net/hollowknight/images/3/31/Screenshot_HK_White_Palace_15.png/revision/latest/scale-to-width-down/1000?cb=20190610153112",
+        "https://static.wikia.nocookie.net/hollowknight/images/d/d1/Screenshot_HK_White_Palace_02.png/revision/latest/scale-to-width-down/1000?cb=20190610153219",
+        "https://static.wikia.nocookie.net/hollowknight/images/4/46/Screenshot_HK_White_Palace_04.png/revision/latest/scale-to-width-down/1000?cb=20190610153108",
+        "https://static.wikia.nocookie.net/hollowknight/images/d/d1/Screenshot_HK_White_Lady_03.png/revision/latest/scale-to-width-down/1000?cb=20190610153214",
+        "https://static.wikia.nocookie.net/hollowknight/images/a/a6/Screenshot_HK_White_Palace_09.png/revision/latest/scale-to-width-down/1000?cb=20190610153308"
+      ],
       "enemyIds": [
         "enemy_0018"
       ],
